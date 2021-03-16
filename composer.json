@@ -1,0 +1,34 @@
+{
+  "name": "askvortsov/flarum-markdown-tables",
+  "description": "Markdown tables for flarum.",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta.15"
+  },
+  "authors": [
+    {
+      "name": "Alexander Skvortsov",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      " \\MarkdownTables\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Markdown Tables",
+      "category": "formatting",
+      "icon": {
+        "name": "fas fa-table",
+        "backgroundColor": "#6932D1",
+        "color": "#ffffff"
+      }
+    }
+  }
+}
